@@ -3,6 +3,14 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+  cloud_firestore
+  file_selector_windows
+  firebase_auth
+  firebase_core
+  firebase_storage
+  geolocator_windows
+  permission_handler_windows
+  smart_auth
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST
